@@ -1,0 +1,2 @@
+﻿<http://datadock.io/datadocktestorg/toon_libraries/id/dataset/newcastleLibrariesEnquiriescsv> <http://rdfs.org/ns/void#triples> "5106"^^<http://www.w3.org/2001/XMLSchema#integer> <http://datadock.io/datadocktestorg/toon_libraries/id/dataset/newcastleLibrariesEnquiriescsv/metadata>.
+<http://datadock.io/datadocktestorg/toon_libraries/id/dataset/newcastleLibrariesListcsv> <http://rdfs.org/ns/void#triples> "91"^^<http://www.w3.org/2001/XMLSchema#integer> <http://datadock.io/datadocktestorg/toon_libraries/id/dataset/newcastleLibrariesListcsv/metadata>.
