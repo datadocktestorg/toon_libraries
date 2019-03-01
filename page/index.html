@@ -23,7 +23,7 @@
   <div class="ui grid container">
     <header>
       <div class="ui huge breadcrumb">
-        <a class="section" href="https://datadock.io/" title=" data portal homepage"></a>
+        <a class="section" href="https://datadock.io/datadocktestorg" title="DataDock Development Org data portal homepage">DataDock Development Org</a>
         <i class="right chevron icon divider"></i>
         <div class="active section">
           <h1>
@@ -58,10 +58,10 @@
 						<div class="header">Publisher</div>
 							<div>
 						
-																								<div class="list" property="dc:publisher" resource="http://datadock.io/datadocktestorg/toon_libraries/id/dataset/publisher" typeof="http://xmlns.com/foaf/0.1/Person">
+																								<div class="list" property="dc:publisher" resource="http://datadock.io/datadocktestorg/toon_libraries/id/dataset/publisher" typeof="http://xmlns.com/foaf/0.1/Organization">
 									<div class="item">
 										<div class="content">
-																						  <span property="foaf:name">Test Organisation</span>
+																						  <span property="foaf:name">Some Publisher Name</span>
 										</div>
 									</div>
 									<div class="item">
@@ -71,7 +71,7 @@
 									</div>
 									<div class="item">
 										<div class="content">
-										  										  <span property="foaf:mbox">Not specified.</span>
+										  										  <span property="foaf:mbox">test@example.org</span>
 										</div>
 									</div>
 								</div><!-- list -->
@@ -103,10 +103,10 @@
 					<div class="header">Publisher</div>
 						<div>
 						
-																					<div class="list" property="dc:publisher" resource="http://datadock.io/datadocktestorg/toon_libraries/id/dataset/publisher" typeof="http://xmlns.com/foaf/0.1/Person">
+																					<div class="list" property="dc:publisher" resource="http://datadock.io/datadocktestorg/toon_libraries/id/dataset/publisher" typeof="http://xmlns.com/foaf/0.1/Organization">
 								<div class="item">
 									<div class="content">
-																				  <span property="foaf:name">Test Organisation</span>
+																				  <span property="foaf:name">Some Publisher Name</span>
 									</div>
 								</div>
 								<div class="item">
@@ -116,7 +116,7 @@
 								</div>
 								<div class="item">
 									<div class="content">
-									  									  <span property="foaf:mbox">Not specified.</span>
+									  									  <span property="foaf:mbox">test@example.org</span>
 									</div>
 								</div>
 							</div><!-- list -->
@@ -134,7 +134,23 @@
 	  <!-- content -->
       <div class="sixteen wide mobile twelve wide computer column">
 		
-		 
+		 			<div class="ui center aligned container search-buttons" id="buttons">
+				<div class="ui link four cards">
+				
+
+					
+						<div class="primary card" onclick="buttonSearch('libraries')" id="libraries">
+							<div class="content">
+								<div class="header">
+																									libraries
+								</div><!-- end header -->
+							</div><!-- end content -->
+						</div><!-- end card -->
+									
+				</div><!-- end cards -->
+		  </div><!-- end #buttons -->
+		  <div class="ui hidden divider"></div>
+		
 		<div class="ui center aligned container">
             <div class="ui big action input">
               <input type="text" placeholder="" id="tags" />
@@ -238,7 +254,7 @@
 							<dt>Modified:</dt>
 							<dd>
 																
-									<span property="dc:modified" datatype="http://www.w3.org/2001/XMLSchema#date">2019-02-02</span>
+									<span property="dc:modified" datatype="http://www.w3.org/2001/XMLSchema#date">2019-03-01</span>
 								
 							</dd>
 							<dt>License:</dt>
@@ -269,7 +285,7 @@
 								<div class="value">
 									
 									
-										<span property="void:triples" datatype="http://www.w3.org/2001/XMLSchema#integer">5106</span>
+										<span property="void:triples" datatype="http://www.w3.org/2001/XMLSchema#integer">3128</span>
 									
 								</div>
 								<div class="label">
@@ -285,7 +301,7 @@
 																			<a property="void:dataDump" class="ui primary button mr" href="http://datadock.io/datadocktestorg/toon_libraries/csv/newcastleLibrariesEnquiriescsv/Newcastle_Libraries_Enquiries.csv"><i class="download icon"></i>CSV</a>
 																	
 									
-																			<a property="void:dataDump" class="ui primary button mr" href="https://github.com/datadocktestorg/toon_libraries/releases/download/newcastleLibrariesEnquiriescsv_20190202_173806/newcastleLibrariesEnquiriescsv_20190202_173806.nt.gz"><i class="download icon"></i>N-QUADS</a>
+																			<a property="void:dataDump" class="ui primary button mr" href="https://github.com/datadocktestorg/toon_libraries/releases/download/newcastleLibrariesEnquiriescsv_20190301_174552/newcastleLibrariesEnquiriescsv_20190301_174552.nt.gz"><i class="download icon"></i>N-QUADS</a>
 																	
 												</div> <!-- end extra content -->
 

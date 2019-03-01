@@ -1,4 +1,4 @@
-﻿<http://datadock.io/datadocktestorg/toon_libraries/id/dataset/publisher> <http://www.w3.org/2000/01/rdf-schema#label> "Test Organisation" <http://datadock.io/datadocktestorg/toon_libraries/metadata>.
+﻿<http://datadock.io/datadocktestorg/toon_libraries/id/dataset/publisher> <http://www.w3.org/2000/01/rdf-schema#label> "Some Publisher Name" <http://datadock.io/datadocktestorg/toon_libraries/metadata>.
 <http://datadock.io/datadocktestorg/toon_libraries/id/definition/abbr> <http://www.w3.org/2000/01/rdf-schema#label> "ABBR"^^<http://www.w3.org/2001/XMLSchema#string> <http://datadock.io/datadocktestorg/toon_libraries/definitions>.
 <http://datadock.io/datadocktestorg/toon_libraries/id/definition/archive_url> <http://www.w3.org/2000/01/rdf-schema#label> "ARCHIVE URL"^^<http://www.w3.org/2001/XMLSchema#string> <http://datadock.io/datadocktestorg/toon_libraries/definitions>.
 <http://datadock.io/datadocktestorg/toon_libraries/id/definition/computer_provision> <http://www.w3.org/2000/01/rdf-schema#label> "Computer Provision"^^<http://www.w3.org/2001/XMLSchema#string> <http://datadock.io/datadocktestorg/toon_libraries/definitions>.
